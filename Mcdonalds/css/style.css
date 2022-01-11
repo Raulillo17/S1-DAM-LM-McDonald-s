@@ -1,0 +1,176 @@
+body {
+    margin: 0;
+}
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+.containercard {
+    width: 74%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+#logo {
+    width: 20%;
+    float: left;
+}
+header nav {
+    width: 60%;
+    float: left;
+    padding: 26px 0;
+}
+#boton {
+    width: 20%;
+    float: left;
+    text-align: right;
+    padding: 26px 0;
+}
+.cb {
+    clear: both;
+}
+.botonnaranja {
+    background-color: #F5BD42;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    padding: 6px 26px;
+    text-align: center;
+}
+header nav ul, header nav li {
+    padding: 0;
+    margin: 0;
+}
+header nav li {
+    list-style-type: none;
+    float: left;
+    margin-right: 20px;
+    position: relative;
+
+}
+header nav ul li ul {
+    padding-top: 20px;
+    display: none;
+    position: absolute;
+    background-color: white;
+}
+header nav ul li:hover ul {
+    display: block;
+}
+header nav ul li ul li {
+    padding: 20px 0;
+    width: 280px;
+    border-radius: 10px;
+    margin-right: 0px;
+    border-bottom: solid 1px gainsboro;
+}
+header nav img {
+    float: left;
+    width: 100px;
+}
+header nav ul li ul li:hover {
+    background-color: #F5BD42;
+}
+#grande {
+    background-image: url(../img/grande.jpg);
+    height: 650px;
+    background-size: cover;
+}
+.containercard {
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+}
+.card img {
+    width: 100%;
+    border-radius: 16px 16px 0 0;
+}
+.card {
+    text-align: center;
+    box-shadow: 0 0 16px gainsboro;
+    border-radius: 14px;
+    position: relative;
+    padding-bottom: 40px;
+    flex-grow: 1;    /*Le asignamos un peso al elemento de los card*/
+    flex-basis: 0;  /*Le asignamos el mismo tamaño a los elementos*/
+}
+.centervertical {
+    height: 650px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.my-20 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.card .botonnaranja {
+    position: absolute;
+    bottom: 14px;
+    right: 14px;
+}
+.aviso{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+   
+}
+.texto{
+    display: flex;
+    flex-direction: row;
+    column-gap: 100px;
+}
+.botonblanco{
+    background-color: gainsboro;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    padding: 6px 26px;
+    text-align: center;
+}
+#container1{
+    background-color: #F5BD42;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+   
+}
+.containercard1{
+    width: 43%;
+    margin-top: 20px;
+
+}
+.containercard1 .botonblanco{
+    justify-content: center;
+    align-items: end;
+}
+.container2 h2{
+    text-align: center;
+
+    
+}
+.containercard2{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: flex-end;
+    width: 43%;
+}
+.container3{
+    margin-bottom: 10px;
+    margin: 0 auto;
+    width: 74%;
+    border-bottom: solid 1px rgb(88, 88, 88);
+}
+.text-rigth{
+    text-align: right;
+}
+
+
+
+
+
+
